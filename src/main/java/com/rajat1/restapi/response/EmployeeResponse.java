@@ -14,4 +14,5 @@ public class EmployeeResponse {
 	private String bloodGroup;
 	private String position;
 	private DepartmentResponse departmentResponse;
+	private AddressResponse addressResponse;
 }
