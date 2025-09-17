@@ -25,5 +25,6 @@ public class Employee {
 	private String email;
 	@Column(name="employee_bloodgroup")
 	private String bloodGroup;
-
+	@Column(name="employee_position")
+	private String position;
 }
