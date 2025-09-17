@@ -13,8 +13,7 @@ public class EmployeeConfig {
 	public ModelMapper modelMapper() {
 		return new ModelMapper();
 	}
-	@Bean
-	public RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
+	/*
+	 * @Bean public RestTemplate restTemplate() { return new RestTemplate(); }
+	 */
 }
