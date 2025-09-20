@@ -8,7 +8,7 @@ import com.rajat1.restapi.response.DepartmentResponse;
 
 
 
-@FeignClient(name = "Department-service", url = "${departmentservice.base.url}")
+@FeignClient(name = "Department-service")
 public interface DepartmentClient {
 	@GetMapping("/department/{employeeId}")
 	public DepartmentResponse findDepartmentByEmployeeId(@PathVariable ("employeeId") int employeeId);
